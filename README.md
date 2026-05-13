@@ -1,2 +1,18 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+# exercicio aula 2
+
+## data
+
+```dart
+List<Map<String, dynamic>> alunos = [
+  {"id": 98523488, "nome": "João da Silva", "telefone": null},
+  {"id": 98523489, "nome": "Lucas Evangelista", "telefone": '11996541236'},
+  {"id": 98523490, "nome": "Maria Teodoro", "telefone": '11944551236'},
+  {"id": 98523491, "nome": "Isabel Santos", "telefone": null},
+];
+```
+
+## exercicio
+
+- Cria una clase que representa a entidade map
+- Converta sua lista de map em uma lista de Objetos
+- Imprimir na tela o nome de cada aluno
