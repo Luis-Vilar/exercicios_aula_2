@@ -10,13 +10,7 @@ void main(List<String> arguments) {
 
   ListStudent listaEstudantes = ListStudent(
     listStudent: alunos
-        .map(
-          (aluno) => Student.formatted(
-            id: aluno['id'],
-            name: aluno['nome'],
-            phone: aluno['telefone'],
-          ),
-        )
+        .map((aluno) => Student.formatted(studentMap: aluno))
         .toList(),
   );
   print('Nomes \n');
